@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Tes")
+	fmt.Println("Teso")
 
 	core.NewConfig()
 }
