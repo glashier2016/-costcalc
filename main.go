@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Test")
+	fmt.Println("Tes")
 
 	core.NewConfig()
 }
