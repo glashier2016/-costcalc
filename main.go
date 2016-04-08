@@ -1,13 +1,8 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/glashier2016/costcalc/core"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Teso")
+	fmt.Println("Test")
 
-	core.NewConfig()
 }
