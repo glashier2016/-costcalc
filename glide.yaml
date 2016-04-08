@@ -1,3 +1,4 @@
 package: github.com/glashier2016/costcalc
 import:
 - package: github.com/labstack/echo
+- package: github.com/valyala/fasttemplate

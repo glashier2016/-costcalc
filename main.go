@@ -15,5 +15,5 @@ func main() {
 	e.Get("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!\n")
 	})
-	ee.Run(standard.New(":8080"))
+	e.Run(standard.New(":8080"))
 }
