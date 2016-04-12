@@ -7,5 +7,5 @@ import (
 )
 
 func Auth(c echo.Context) error {
-	return c.HTML(http.StatusOK, "/public/auth.html")
+	return c.Render(http.StatusOK, "auth.html", map[string]interface{}{"test": "string"})
 }
