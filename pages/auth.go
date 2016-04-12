@@ -6,6 +6,6 @@ import (
 	"github.com/labstack/echo"
 )
 
-func auth(c echo.Context) error {
+func Auth(c echo.Context) error {
 	return c.String(http.StatusOK, "/public/auth.html")
 }

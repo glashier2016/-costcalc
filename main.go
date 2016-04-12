@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 
+	"github.com/glashier2016/costcalc/pages"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/engine/standard"
 	"github.com/labstack/echo/middleware"
@@ -15,6 +16,6 @@ func main() {
 	e.Get("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!\n")
 	})
-	e.Get("/auth", p.Auth)
+	e.Get("/auth", pages.Auth)
 	e.Run(standard.New(":8080"))
 }
