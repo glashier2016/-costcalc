@@ -15,5 +15,6 @@ func main() {
 	e.Get("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!\n")
 	})
+	e.Get("/auth", p.Auth)
 	e.Run(standard.New(":8080"))
 }
