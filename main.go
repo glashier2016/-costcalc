@@ -3,7 +3,6 @@ package main
 import (
 	"html/template"
 	"io"
-	"net/http"
 
 	"github.com/glashier2016/costcalc/pages"
 	"github.com/labstack/echo"
@@ -29,9 +28,7 @@ func main() {
 	e.SetRenderer(t)
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
-	e.Get("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!\n")
-	})
+	e.Get("/", pages.Home)
 	e.Get("/auth", pages.Auth)
 	e.Run(standard.New(":8080"))
 }
