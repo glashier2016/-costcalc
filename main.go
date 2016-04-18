@@ -30,5 +30,6 @@ func main() {
 	e.Use(middleware.Recover())
 	e.Get("/", pages.Home)
 	e.Get("/auth", pages.Auth)
+	e.Get("/auth", pages.Reg)
 	e.Run(standard.New(":8080"))
 }
