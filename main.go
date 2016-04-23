@@ -19,7 +19,6 @@ func (t *Template) Render(w io.Writer, name string, data interface{}, c echo.Con
 }
 
 func main() {
-
 	t := &Template{
 		templates: template.Must(template.ParseGlob("public/*.html")),
 	}
