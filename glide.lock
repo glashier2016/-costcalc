@@ -1,5 +1,5 @@
 hash: 72f386439f40555610fc0710560133fa91b2f8b3639d93452e93703c77b78cb4
-updated: 2016-04-08T22:01:13.898728996+04:00
+updated: 2016-04-24T02:07:01.880713066+04:00
 imports:
 - name: github.com/labstack/echo
   version: 1a7bc677da28c85aaada4ef2013b3b11695c8e18
@@ -8,22 +8,22 @@ imports:
   - middleware
   - engine
 - name: github.com/labstack/gommon
-  version: f4ba73f8bcf88df1524069c117f7878cf530ee4e
+  version: f8343700e8769e645b5f9949ec2e3a69f9fd71eb
   subpackages:
   - log
   - color
 - name: github.com/mattn/go-colorable
-  version: 9cbef7c35391cca05f15f8181dc0b18bc9736dbb
+  version: bc69d6cebca8dd5675346a34a1c545b67dc74d5e
 - name: github.com/mattn/go-isatty
   version: 56b76bdf51f7708750eac80fa38b952bb9f32639
 - name: github.com/valyala/fasttemplate
   version: 3b874956e03f1636d171bda64b130f9135f42cff
 - name: golang.org/x/net
-  version: e45385e9b226f570b1f086bf287b25d3d4117776
+  version: b797637b7aeeed133049c7281bfa31dcc9ca42d6
   subpackages:
   - context
 - name: golang.org/x/sys
-  version: a80ff226bd294315526e7ae48959d55635143ea7
+  version: f64b50fbea64174967a8882830d621a18ee1548e
   subpackages:
   - unix
 devImports: []
