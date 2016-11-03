@@ -10,24 +10,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
-      <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </div>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <ul class="nav navbar-nav">
+        <div class="row">
+          <div class="col-md-4  offset-md-1">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+        </li>
+      </div>
+      <div class="col-md-1  offset-md-6">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Вход <span class="sr-only">(current)</span></a>
+        </li>
+      </div>
+      </ul>
+    </nav>
       </br>
         </br>
           </br>
         <div class="row">
           <div class="col-md-4 offset-md-5">
-   <h1>Registration</h1>
+   <h1>Регистрация</h1>
    </div>
    </div>
   </br>
@@ -37,22 +40,22 @@
             <div class="col-md-4 offset-md-4">
     <form>
       <div class="form-group">
-        <label for="exampleInputEmail1">Login</label>
-        <input type="text" class="form-control" id="exampleInputLogin" placeholder="Login">
+        <label for="exampleInputEmail1">Логин</label>
+        <input type="text" class="form-control" id="exampleInputLogin" placeholder="Логин">
       </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Retype password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Retype password">
+    <label for="exampleInputPassword1">Повторите пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Повторите пароль">
   </div>
-<button type="submit" class="btn btn-primary">Sign up</button>
+<button type="submit" class="btn btn-primary">Регистрация</button>
   </form>
   </div>
   </div>
